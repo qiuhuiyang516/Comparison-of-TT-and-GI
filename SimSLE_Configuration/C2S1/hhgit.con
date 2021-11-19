@@ -1,0 +1,15 @@
+0    if=1, mean head is read in from file and not calculated 
+0    if=1, stop after pressure calculation 
+0    if=1, calculate linearized h and w perturbations at data locations 
+0    if=1, stop after calculation of sensitivity 
+0    if=1, stop after covariance calculation 
+2    if=1, sample secondary data at data locations if=2, sample all data 
+1    if=1, use LINPACK dgefs  if=2 use Numerical Recipes dsvdcmp 
+5    output 1=Rhf Rxyph0 2=+ Rhh 3=+ Jhf adj_f 4=+covar 5=all 
+1    if=1, iterate 
+82  stop at this iteration 
+.001 variances between iterations changes by less than this, stop 
+.001 pres or m.c. between iterations changes by less than this, stop
+0   if=1, loop-iteration
+3  stop at this number of loops
+3 number of iterations within one loop

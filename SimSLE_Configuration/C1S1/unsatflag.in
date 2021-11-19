@@ -1,0 +1,5 @@
+1  !fflag if=1, estimate K
+0  !aflag if=1, estimate VG parameter a
+0  !nflag if=1, estimate VG parameter n
+1   !sflag if=1, estimate Ss
+0 !tsflag if=1, estimate saturated water content
